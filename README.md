@@ -6,6 +6,10 @@ This application shows the 5 most recent call records from the vanity number gen
 It auto-refreshes every 10 seconds and relies on the call history lamba
 which it calls through the AWS API Gateway at: `https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history`
 
+## Overview
+
+![ArchitectureDiagram] (/public/callHIstoryArchDiagram.png)
+
 ## Deploy Steps
 
 Provision the s3 bucket
