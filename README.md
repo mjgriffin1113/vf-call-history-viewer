@@ -1,3 +1,20 @@
+# Call History Dashboard
+
+## Deploy Steps
+
+Provision the s3 bucket
+Build your app
+Upload the build folder
+
+```
+yarn run provision
+yarn run deploy
+```
+
+Find the bucket in the s3 service, go to Properties tab
+and find the website URL at the bottom under 'Bucket website endpoint'
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
