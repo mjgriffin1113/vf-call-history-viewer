@@ -8,7 +8,7 @@ which it calls through the AWS API Gateway at: `https://lajsxhrwbj.execute-api.u
 
 ## Overview
 
-https://raw.githubusercontent.com/mjgriffin1113/vf-call-history-viewer/master/public/callHIstoryArchDiagram.png
+(https://raw.githubusercontent.com/mjgriffin1113/vf-call-history-viewer/master/public/callHIstoryArchDiagram.png)
 
 ## Deploy Steps
 
