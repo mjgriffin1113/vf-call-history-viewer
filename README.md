@@ -1,4 +1,8 @@
-# Call History Dashboard
+# Call History Viewer App
+
+This application shows the 5 most recent call records from the vanity number generator.
+It auto-refreshes every 10 seconds and relies on the call history lamba
+which it calls through the AWS API Gateway at: `https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history`
 
 ## Deploy Steps
 
@@ -14,8 +18,7 @@ yarn run deploy
 Find the bucket in the s3 service, go to Properties tab
 and find the website URL at the bottom under 'Bucket website endpoint'
 
-
-# Getting Started with Create React App
+## Running the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
