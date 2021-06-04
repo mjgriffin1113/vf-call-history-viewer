@@ -8,7 +8,7 @@ which it calls through the AWS API Gateway at: `https://lajsxhrwbj.execute-api.u
 
 ## Overview
 
-![ArchitectureDiagram] (/public/callHIstoryArchDiagram.png)
+![ArchitectureDiagram] (public/callHistoryArchDiagram.png)
 
 ## Deploy Steps
 
