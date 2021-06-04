@@ -49,7 +49,7 @@ export default function CallHistoryTable(props) {
           {callHistory?.map((record) => (
             <TableRow key={record.customerPhone}>
               <TableCell component="th" scope="row">
-                {record.lastUpdated}
+                {new Date(record.lastUpdated).toLocaleString()}
               </TableCell>
               <TableCell align="left">{record.customerPhone}</TableCell>
               <TableCell align="left">{record.vanityNumber}</TableCell>
