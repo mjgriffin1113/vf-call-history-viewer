@@ -1,13 +1,11 @@
 # Call History Viewer App
 
-Application can be found at:
-
-`http://vf-vanity-num-generator.s3-website-us-east-1.amazonaws.com/`
+Application can be found [here:](http://vf-vanity-num-generator.s3-website-us-east-1.amazonaws.com)
 
 This application shows the 5 most recent call records from the vanity number generator.\
 It auto-refreshes every 10 seconds and relies on the call history lamba which it calls through the AWS API Gateway at:
 
-`https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history`
+[https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history](https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history)
 
 ## Overview
 
