@@ -1,20 +1,23 @@
 # Call History Viewer App
 
-http://vf-vanity-num-generator.s3-website-us-east-1.amazonaws.com/
+Application can be found at:
 
-This application shows the 5 most recent call records from the vanity number generator.
-It auto-refreshes every 10 seconds and relies on the call history lamba
-which it calls through the AWS API Gateway at: 
+`http://vf-vanity-num-generator.s3-website-us-east-1.amazonaws.com/`
+
+This application shows the 5 most recent call records from the vanity number generator.\
+It auto-refreshes every 10 seconds and relies on the call history lamba which it calls through the AWS API Gateway at:
 
 `https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history`
 
 ## Overview
 
+(arrow directions show the flow of response data)
+
 ![ArchitectureDiagram](public/callHistoryArchDiagram.png)
 
 ## Deploy Steps
 
-App will automatically build and deploy when a branch is merged into Master using Github workflows
+App will automatically build and deploy (using Github workflows) when a branch is approved and merged into Master
 
 ## Manual Deploy Steps
 
@@ -31,8 +34,7 @@ yarn run deploy
 
 Ensure that the files were uploaded to s3
 
-Find the bucket in the s3 service, go to Properties tab
-and find the website URL at the bottom under 'Bucket website endpoint'
+Find the bucket in the s3 service, go to Properties tab and find the website URL at the bottom under 'Bucket website endpoint'
 
 ## Running the project
 
