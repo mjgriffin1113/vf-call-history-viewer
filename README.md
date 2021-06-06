@@ -21,7 +21,7 @@ App will automatically build and deploy (using Github workflows) when a branch i
 
 Provision the s3 bucket\
 Build your app\
-Upload the build folder\
+Upload the build folder
 
 ```
 yarn run provision
