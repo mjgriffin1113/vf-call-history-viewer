@@ -33,4 +33,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn run provision
+    - run: yarn install
     - run: yarn run deploy
