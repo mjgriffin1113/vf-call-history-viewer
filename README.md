@@ -12,14 +12,22 @@ which it calls through the AWS API Gateway at: `https://lajsxhrwbj.execute-api.u
 
 ## Deploy Steps
 
-Provision the s3 bucket
-Build your app
-Upload the build folder
+App will automatically build and deploy when a branch is merged into Master using Github workflows
+
+## Manual Deploy Steps
+
+Provision the s3 bucket\
+Build your app\
+Upload the build folder\
 
 ```
 yarn run provision
 yarn run deploy
 ```
+
+## Verify Deploy
+
+Ensure that the files were uploaded to s3
 
 Find the bucket in the s3 service, go to Properties tab
 and find the website URL at the bottom under 'Bucket website endpoint'
