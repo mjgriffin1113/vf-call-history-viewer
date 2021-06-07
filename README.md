@@ -19,6 +19,8 @@ App will automatically build and deploy (using Github workflows) when a branch i
 
 ## Manual Deploy Steps
 
+run `yarn install` if needed
+
 Provision the s3 bucket\
 Build your app\
 Upload the build folder
@@ -27,6 +29,9 @@ Upload the build folder
 yarn run provision
 yarn run deploy
 ```
+
+You will need to update the `provision` and `upload` commands in package.json file to change the bucket name to something unique.\
+You will also need to be signed into the aws cli with an admin IAM user (`aws configure`)
 
 ## Verify Deploy
 
