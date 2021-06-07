@@ -30,8 +30,12 @@ yarn run provision
 yarn run deploy
 ```
 
-You will need to update the `provision` and `upload` commands in package.json file to change the bucket name to something unique.\
-You will also need to be signed into the aws cli with an admin IAM user (`aws configure`)
+You may need to:
+
+- update the `provision` and `upload` commands in package.json file to change the bucket name to something unique.
+- sign into the aws cli with an admin IAM user (`aws configure`)
+- update CallHistory.js fetch URL to point to the correct API (the one in the account with the Connect instance you are monitoring)
+
 
 ## Verify Deploy
 

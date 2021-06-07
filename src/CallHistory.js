@@ -10,6 +10,8 @@ function CallHistory() {
   // get 5 most recent records
   const getData = () => {
     console.log('fetching data');
+    // this needs to be manually updated before deploy as long as the web app remains a static s3 hosted site 
+    // (no dynamic injection of environment variables)
     fetch('https://lajsxhrwbj.execute-api.us-east-1.amazonaws.com/Staging/call-history')
       .then((response) => response.json())
       .then((data) => setCallHistory(data));
